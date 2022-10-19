@@ -18,7 +18,7 @@ In this jframe there is two botton
 
   * In this jframe staff need to provide UserID and Password inorder to login into staff Home Page.  
   * As per this project I have kept the userID "admin" and password "admin" to login.  
-![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/stafflogin.png)  
+![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/stafflogin1.png)  
 
 ### 3)Staff Home Page  
   As soon as the staff click on login it redirect to Staff Home Page where staff can perform following operation.  
