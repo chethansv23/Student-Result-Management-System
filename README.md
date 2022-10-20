@@ -33,8 +33,8 @@ In this jframe there is two botton
   * By default the staff home page has this frame where staff can enter student basic detail like roll number(this should be unique), name, class, date of birth, gender,father name.  
   * As soon as we click on add all the details will be stored in mysql database of table name "student" inside school databaser with respect to "rollnumber" as a primary key.  
   * Before adding the data in student table please create a table "student" inside "school" database.  
-   **create table student(rollnumber varchar(255) primary key, name varchar(255), class int, dob varchar(255), gender char(4), fathername varchar(255));**
-    ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/student.png)
+   **create table student(rollnumber varchar(255) primary key, name varchar(255), studentclass int, dob varchar(255), gender char(4), fathername varchar(255));**
+    ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/student1.png)
   * Note: In these project I have used user name as "root" and password as "root". Please enter your MySQL password inside all the jframe where ever database is used.                         
 ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/staffhomepage.png)
   
