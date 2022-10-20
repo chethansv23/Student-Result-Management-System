@@ -33,8 +33,8 @@ In this jframe there is two botton
   * By default the staff home page has this frame where staff can enter student basic detail like roll number(this should be unique), name, class, date of birth, gender,father name.  
   * As soon as we click on add all the details will be stored in mysql database of table name "student" inside school databaser with respect to "rollnumber" as a primary key.  
   * Before adding the data in student table please create a table "student" inside "school" database.  
-   "create table student(rollnumber varchar(255) primary key, name varchar(255), class int, dob varchar(255), gender char(4), fathername varchar(255)); "
-    ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/school.png)
+   **create table student(rollnumber varchar(255) primary key, name varchar(255), class int, dob varchar(255), gender char(4), fathername varchar(255));**
+    ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/student.png)
   * Note: In these project I have used user name as "root" and password as "root". Please enter your MySQL password inside all the jframe where ever database is used.                         
 ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/staffhomepage.png)
   
@@ -42,14 +42,16 @@ In this jframe there is two botton
    * Inorder to add the marks of student. Staff need to click on "Insert New Result" botton.  
    * First need to enter the student roll number and click on search button so that student name will be displayed to verify.  
    * Now Staff can enter the student marks 
-   * Before adding the data in student table please create a table "result" inside "school" database.
-     "create table result(rollnumber varchar(255) primary key, kannada int, english int, hindi int, mathematics int,science int, social int); "
+   * Before adding the data in student table please create a table "result" inside "school" database.  
+     **create table result(rollnumber varchar(255) primary key, kannada int, english int, hindi int, mathematics int,science int, social int);**
      ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/result.png)
    * Once the staff click on add. The marks of the students in all the subject will be saved in school database in table name "result" with respect to "rollnumber" as a primary key.  
 ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/insertmarks.png)
-   * When the invalid roll number is entered "Invalid Roll Number" message will popup as shown in below img.  
-![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/insertmarkserror.png)
-![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/insertmarkserror.png)
+   * When the invalid roll number is entered "Invalid Roll Number" message will popup as shown in below image.  
+![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/insertmakserror.png)
+* When valid roll number is entered student name will be displayed and can verify the name to whom marks has to be entered.
+![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/insertMarksStudentName.png)
+
   
 ### 5) Registered Student  
   * As the staff click on Registered Student. All the details of Students will be fetched from database and displayed. As shown below.  
@@ -72,3 +74,4 @@ In this jframe there is two botton
 ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/fail.png)
 
 
+Thank You 
