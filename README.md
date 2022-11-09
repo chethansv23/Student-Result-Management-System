@@ -13,13 +13,13 @@ In this project I have created totally eight JFrames.
 In this jframe there is two botton   
   * Staff  - redirect to staff login page(frame).  
   * Student - redirect to student portal(frame).  
-![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/homepage.png)
+![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/images/homepage.png)
   
 ### 2)StaffLoginPage  
 
   * In this jframe staff need to provide UserID and Password inorder to login into staff Home Page.  
   * As per this project I have kept the userID "admin" and password "admin" to login.  
-![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/stafflogin1.png)  
+![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/images/stafflogin1.png)  
 
 ### 3)Staff Home Page  
   As soon as the staff click on login it redirect to Staff Home Page where staff can perform following operation.  
@@ -35,9 +35,9 @@ In this jframe there is two botton
   * As soon as we click on add all the details will be stored in mysql database of table name "student" inside school databaser with respect to "rollnumber" as a primary key.  
   * Before adding the data in student table please create a table "student" inside "school" database.  
    **create table student(rollnumber varchar(255) primary key, name varchar(255), studentclass int, dob varchar(255), gender char(4), fathername varchar(255));**
-    ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/student1.png)
+    ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/images/student1.png)
   * Note: In these project I have used user name as "root" and password as "root". Please enter your MySQL password inside all the jframe where ever database is used.                         
-![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/staffhomepage.png)
+![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/images/staffhomepage.png)
   
 ### 4) Insert New Result  
    * Inorder to add the marks of student. Staff need to click on "Insert New Result" botton.  
@@ -45,34 +45,34 @@ In this jframe there is two botton
    * Now Staff can enter the student marks 
    * Before adding the data in student table please create a table "result" inside "school" database.  
      **create table result(rollnumber varchar(255) primary key, kannada int, english int, hindi int, mathematics int,science int, social int);**
-     ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/result.png)
+     ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/images/result.png)
    * Once the staff click on add. The marks of the students in all the subject will be saved in school database in table name "result" with respect to "rollnumber" as a primary key.  
-![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/insertmarks.png)
+![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/images/insertmarks.png)
    * When the invalid roll number is entered "Invalid Roll Number" message will popup as shown in below image.  
-![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/insertmakserror.png)
+![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/images/insertmakserror.png)
 * When valid roll number is entered student name will be displayed and can verify the name to whom marks has to be entered.
-![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/insertMarksStudentName.png)
+![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/images/insertMarksStudentName.png)
 
   
 ### 5) Registered Student  
   * As the staff click on Registered Student. All the details of Students will be fetched from database and displayed. As shown below.  
-![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/studentdetails.png)
+![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/images/studentdetails.png)
   
 ### 6) All Student Result  
   * Similarly as the staff click on All Student Result. All the subject marks of Students will be fetched from database and displayed. As shown below.  
-   ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/studentmarks.png)
+   ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/images/studentmarks.png)
 
 ### 7) Student Portal
    * Student will be redirected to Student portal when clicked on Student botton in Home page.  
    * Student need to enter the valid rollnumber to fetch the result else "Invalid Roll Number" message will popup.  
    * If Students enters the valid roll number then it will be redirected to StudentResult page.  
-   ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/studentportal.png)  
+   ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/images/studentportal.png)  
 
 ### 8) Student Result
   * This is the frame where the result of student will be displayed.  
   * Below is the two example where one student is passed and other student is failed.  
-  ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/pass.png)  
-![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/fail.png)
+  ![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/images/pass.png)  
+![This is an image](https://github.com/chethansv23/Student-Result-Management-System/blob/main/images/fail.png)
 
 
 Thank You 
